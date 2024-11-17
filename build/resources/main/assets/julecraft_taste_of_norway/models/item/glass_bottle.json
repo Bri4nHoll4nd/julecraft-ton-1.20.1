@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "julecraft_taste_of_norway:item/glass_bottle"
+  }
+}
