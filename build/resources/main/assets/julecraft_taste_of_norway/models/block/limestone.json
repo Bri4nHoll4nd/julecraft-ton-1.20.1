@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "julecraft_taste_of_norway:block/limestone"
+  }
+}

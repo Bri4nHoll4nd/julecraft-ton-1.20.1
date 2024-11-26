@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "julecraft_taste_of_norway:limestone_7"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "julecraft_taste_of_norway:blocks/limestone_7"
+}

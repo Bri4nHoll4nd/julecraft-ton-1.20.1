@@ -1,13 +1,23 @@
 {
   "creativetab.julecraft_tab": "Julecraft: Taste of Norway",
 
-  "item.julecraft_taste_of_norway.glass_bottle": "Glass bottle",
-  "item.julecraft_taste_of_norway.limestone_1x": "Compressed Block of Limestone (1x)",
+  "item.julecraft_taste_of_norway.glass_soda_bottle": "Glass Soda Bottle",
   "item.julecraft_taste_of_norway.lime_powder": "Lime Powder",
   "item.julecraft_taste_of_norway.bio_pulp": "Bio-Pulp",
   "item.julecraft_taste_of_norway.plastic_sheet": "Plastic Sheet",
-  "item.julecraft_taste_of_norway.plastic_bottle": "Plastic Bottle",
+  "item.julecraft_taste_of_norway.plastic_soda_bottle": "Plastic Soda Bottle",
   "item.julecraft_taste_of_norway.bottle_of_julebrus_orange": "Bottle of Orange Julebrus",
   "item.julecraft_taste_of_norway.bottle_of_julebrus_red": "Bottle of Red Julebrus",
-  "item.julecraft_taste_of_norway.bottle_of_julebrus_brown": "Bottle of Brown Julebrus"
+  "item.julecraft_taste_of_norway.bottle_of_julebrus_brown": "Bottle of Brown Julebrus",
+
+  "block.julecraft_taste_of_norway.limestone": "Limestone",
+  "block.julecraft_taste_of_norway.limestone_1": "Compressed Block of Limestone (1x)",
+  "block.julecraft_taste_of_norway.limestone_2": "Compressed Block of Limestone (2x)",
+  "block.julecraft_taste_of_norway.limestone_3": "Compressed Block of Limestone (3x)",
+  "block.julecraft_taste_of_norway.limestone_4": "Compressed Block of Limestone (4x)",
+  "block.julecraft_taste_of_norway.limestone_5": "Compressed Block of Limestone (5x)",
+  "block.julecraft_taste_of_norway.limestone_6": "Compressed Block of Limestone (6x)",
+  "block.julecraft_taste_of_norway.limestone_7": "Compressed Block of Limestone (7x)",
+  "block.julecraft_taste_of_norway.limestone_8": "Compressed Block of Limestone (8x)",
+  "block.julecraft_taste_of_norway.limestone_9": "Compressed Block of Limestone (9x)"
 }
