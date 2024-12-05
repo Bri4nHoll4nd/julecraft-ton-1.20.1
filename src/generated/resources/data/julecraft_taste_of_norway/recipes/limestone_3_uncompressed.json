@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "julecraft_taste_of_norway:limestone_3"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "julecraft_taste_of_norway:limestone_2"
+  }
+}

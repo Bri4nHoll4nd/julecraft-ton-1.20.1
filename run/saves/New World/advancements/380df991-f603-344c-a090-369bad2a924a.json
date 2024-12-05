@@ -7,7 +7,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_plains": "2024-11-17 22:55:04 +0100"
+      "minecraft:frozen_river": "2024-11-26 12:16:31 +0100",
+      "minecraft:snowy_plains": "2024-11-17 22:55:04 +0100",
+      "minecraft:snowy_taiga": "2024-11-26 12:16:32 +0100",
+      "minecraft:frozen_ocean": "2024-11-27 17:46:54 +0100",
+      "minecraft:snowy_beach": "2024-11-27 17:46:51 +0100"
     },
     "done": false
   },
@@ -284,6 +288,210 @@
   "julecraft_taste_of_norway:recipes/building_blocks/limestone_1": {
     "criteria": {
       "has_limestone": "2024-11-26 01:08:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2024-11-26 13:37:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-11-26 13:37:17 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_5": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_4": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_3": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_2": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_9": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_8": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_7": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_6": {
+    "criteria": {
+      "has_limestone": "2024-11-26 13:45:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-11-26 13:46:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-11-26 13:46:47 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_8_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_2_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_1_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_3_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_4_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_6_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_7_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_5_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "julecraft_taste_of_norway:recipes/building_blocks/limestone_9_uncompressed": {
+    "criteria": {
+      "has_limestone": "2024-11-26 14:25:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-11-26 16:55:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-11-26 16:55:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-11-27 17:35:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-11-27 17:35:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-11-27 17:47:36 +0100"
     },
     "done": true
   },

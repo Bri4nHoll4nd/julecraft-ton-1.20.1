@@ -2,8 +2,12 @@ package net.bri4nholl4nd.julecraftmod;
 
 import com.mojang.logging.LogUtils;
 import net.bri4nholl4nd.julecraftmod.block.ModBlocks;
+import net.bri4nholl4nd.julecraftmod.fluid.ModFluidTypes;
+import net.bri4nholl4nd.julecraftmod.fluid.ModFluids;
 import net.bri4nholl4nd.julecraftmod.item.ModCreativeModTabs;
 import net.bri4nholl4nd.julecraftmod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,11 +38,13 @@ public class JuleCraftMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-        modEventBus.addListener(this::clientSetup);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -57,11 +63,20 @@ public class JuleCraftMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_CARBONATED_WATER.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_CARBONATED_WATER.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_JULEBRUS_BROWN.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_JULEBRUS_BROWN.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_JULEBRUS_ORANGE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_JULEBRUS_ORANGE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_JULEBRUS_RED.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_JULEBRUS_RED.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_FRUIT_JUICE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_FRUIT_JUICE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_ORANGE_JUICE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_ORANGE_JUICE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_SWEET_BERRY_JUICE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_SWEET_BERRY_JUICE.get(), RenderType.translucent());
         }
-    }
-
-    private void clientSetup(FMLClientSetupEvent event) {
-        JuleCraftModClient.setupItemVar();
     }
 }

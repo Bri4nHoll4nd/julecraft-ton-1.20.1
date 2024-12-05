@@ -1,11 +1,13 @@
 package net.bri4nholl4nd.julecraftmod.block;
 
 import net.bri4nholl4nd.julecraftmod.JuleCraftMod;
+import net.bri4nholl4nd.julecraftmod.fluid.ModFluids;
 import net.bri4nholl4nd.julecraftmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
@@ -33,6 +35,20 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> LIMESTONE_9 = registerBlock("limestone_9",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<LiquidBlock> CARBONATED_WATER_BLOCK = JuleCraftMod.BLOCKS.register("carbonated_water_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_CARBONATED_WATER, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<LiquidBlock> JULEBRUS_BROWN_BLOCK = JuleCraftMod.BLOCKS.register("julebrus_brown_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_JULEBRUS_BROWN, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<LiquidBlock> JULEBRUS_ORANGE_BLOCK = JuleCraftMod.BLOCKS.register("julebrus_orange_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_JULEBRUS_ORANGE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<LiquidBlock> JULEBRUS_RED_BLOCK = JuleCraftMod.BLOCKS.register("julebrus_red_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_JULEBRUS_RED, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<LiquidBlock> FRUIT_JUICE_BLOCK = JuleCraftMod.BLOCKS.register("fruit_juice_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_FRUIT_JUICE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<LiquidBlock> ORANGE_JUICE_BLOCK = JuleCraftMod.BLOCKS.register("orange_juice_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_ORANGE_JUICE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<LiquidBlock> SWEET_BERRY_JUICE_BLOCK = JuleCraftMod.BLOCKS.register("sweet_berry_juice_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_SWEET_BERRY_JUICE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = JuleCraftMod.BLOCKS.register(name, block);

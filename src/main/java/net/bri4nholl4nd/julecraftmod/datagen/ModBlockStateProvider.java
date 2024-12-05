@@ -16,6 +16,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.LIMESTONE);
+        blockWithItem(ModBlocks.LIMESTONE_1);
+        blockWithItem(ModBlocks.LIMESTONE_2);
+        blockWithItem(ModBlocks.LIMESTONE_3);
+        blockWithItem(ModBlocks.LIMESTONE_4);
+        blockWithItem(ModBlocks.LIMESTONE_5);
+        blockWithItem(ModBlocks.LIMESTONE_6);
+        blockWithItem(ModBlocks.LIMESTONE_7);
+        blockWithItem(ModBlocks.LIMESTONE_8);
+        blockWithItem(ModBlocks.LIMESTONE_9);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
