@@ -70,6 +70,14 @@ public class ModFluids {
             ModFluidTypes.SWEET_BERRY_JUICE, SOURCE_SWEET_BERRY_JUICE, FLOWING_SWEET_BERRY_JUICE)
             .slopeFindDistance(2).levelDecreasePerBlock(1).block(ModBlocks.SWEET_BERRY_JUICE_BLOCK).bucket(ModItems.SWEET_BERRY_JUICE_BUCKET);
 
+    public static final RegistryObject<FlowingFluid> SOURCE_BIOETHANOL = FLUIDS.register("bioethanol_fluid",
+            () -> new ForgeFlowingFluid.Source(ModFluids.BIO_ETHANOLPROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_BIOETHANOL = FLUIDS.register("flowing_bioethanol_fluid",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.BIO_ETHANOLPROPERTIES));
+    public static final ForgeFlowingFluid.Properties BIO_ETHANOLPROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.BIOETHANOL, SOURCE_BIOETHANOL, FLOWING_BIOETHANOL)
+            .slopeFindDistance(2).levelDecreasePerBlock(1).block(ModBlocks.BIOETHANOL_BLOCK).bucket(ModItems.BIOETHANOL_BUCKET);
+
     public static void register(IEventBus eventBus) {
         FLUIDS.register(eventBus);
     }

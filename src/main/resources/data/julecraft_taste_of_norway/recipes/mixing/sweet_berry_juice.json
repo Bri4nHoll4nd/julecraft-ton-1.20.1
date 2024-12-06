@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "none",
+  "ingredients": [
+    { "item": "minecraft:sweet_berries" }
+  ],
+  "results": [
+    { "fluid": "julecraft_taste_of_norway:sweet_berry_juice_fluid", "amount": 250 }
+  ]
+}

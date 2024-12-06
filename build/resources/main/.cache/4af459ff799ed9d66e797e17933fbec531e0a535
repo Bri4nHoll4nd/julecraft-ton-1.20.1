@@ -1,4 +1,5 @@
-// 1.20.1	2024-11-27T21:20:02.6909114	Item Models: julecraft_taste_of_norway
+// 1.20.1	2024-12-05T17:09:14.7158136	Item Models: julecraft_taste_of_norway
+e1d763a48882e89ce40f0af1cd7d98c4f016f07a assets/julecraft_taste_of_norway/models/item/bioethanol_bucket.json
 4ea3837300d8e76c25bc7c5ed747946852a67d38 assets/julecraft_taste_of_norway/models/item/bio_pulp.json
 b950ac8d8aaa9c55126db945e8b8f590a8329d06 assets/julecraft_taste_of_norway/models/item/bottle_of_julebrus_brown.json
 804c3a31c208c919b8648d269bdf9354e92c677e assets/julecraft_taste_of_norway/models/item/bottle_of_julebrus_orange.json
@@ -12,6 +13,7 @@ baeeeeee194261e319f2f54e92f4dc1d7c6a2b58 assets/julecraft_taste_of_norway/models
 d5254a4a0d524f26fefcac1517593ea963a7048b assets/julecraft_taste_of_norway/models/item/lime_powder.json
 68bc3880c0a7e5f29154264854062c645b175709 assets/julecraft_taste_of_norway/models/item/orange.json
 f0e210a1c094e06b4277863294a8293a70e3e622 assets/julecraft_taste_of_norway/models/item/orange_juice_bucket.json
+5431b29a6d0c95e876f6cccf3a0656d95b78d97f assets/julecraft_taste_of_norway/models/item/plastic_nugget.json
 2576cb0e22827bb6a802dfb7dca49d09cb2fd8a6 assets/julecraft_taste_of_norway/models/item/plastic_sheet.json
 93d860aec23ee4f88919552cd36039515dc7c739 assets/julecraft_taste_of_norway/models/item/plastic_soda_bottle.json
 6c8fd5298217f5fdf7f6356afe0c7be4b551496e assets/julecraft_taste_of_norway/models/item/sweet_berry_juice_bucket.json

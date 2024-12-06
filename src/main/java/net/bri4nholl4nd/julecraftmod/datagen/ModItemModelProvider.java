@@ -20,6 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LIME_POWDER);
         simpleItem(ModItems.ORANGE);
         simpleItem(ModItems.BIO_PULP);
+        simpleItem(ModItems.PLASTIC_NUGGET);
         simpleItem(ModItems.PLASTIC_SHEET);
         simpleItem(ModItems.GLASS_SODA_BOTTLE);
         simpleItem(ModItems.PLASTIC_SODA_BOTTLE);
@@ -32,6 +33,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.JULEBRUS_RED_BUCKET);
         simpleItem(ModItems.FRUIT_JUICE_BUCKET);
         simpleItem(ModItems.ORANGE_JUICE_BUCKET);
+        simpleItem(ModItems.BIOETHANOL_BUCKET);
         simpleItem(ModItems.SWEET_BERRY_JUICE_BUCKET);
     }
 

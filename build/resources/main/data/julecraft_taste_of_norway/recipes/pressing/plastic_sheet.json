@@ -1,0 +1,9 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    { "item": "julecraft_taste_of_norway:plastic_nugget" }
+  ],
+  "results": [
+    { "item": "julecraft_taste_of_norway:plastic_sheet" }
+  ]
+}

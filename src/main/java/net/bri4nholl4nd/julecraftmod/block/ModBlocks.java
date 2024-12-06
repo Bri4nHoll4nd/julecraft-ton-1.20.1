@@ -49,6 +49,8 @@ public class ModBlocks {
             () -> new LiquidBlock(ModFluids.SOURCE_ORANGE_JUICE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
     public static final RegistryObject<LiquidBlock> SWEET_BERRY_JUICE_BLOCK = JuleCraftMod.BLOCKS.register("sweet_berry_juice_block",
             () -> new LiquidBlock(ModFluids.SOURCE_SWEET_BERRY_JUICE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<LiquidBlock> BIOETHANOL_BLOCK = JuleCraftMod.BLOCKS.register("bioethanol_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_BIOETHANOL, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = JuleCraftMod.BLOCKS.register(name, block);

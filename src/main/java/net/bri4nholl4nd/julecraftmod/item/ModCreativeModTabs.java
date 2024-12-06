@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.LIME_POWDER.get());
                         pOutput.accept(ModItems.ORANGE.get());
                         pOutput.accept(ModItems.BIO_PULP.get());
+                        pOutput.accept(ModItems.PLASTIC_NUGGET.get());
                         pOutput.accept(ModItems.PLASTIC_SHEET.get());
                         pOutput.accept(ModItems.PLASTIC_SODA_BOTTLE.get());
                         pOutput.accept(ModItems.BOTTLE_OF_JULE_BRUS_ORANGE.get());
@@ -43,6 +44,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.FRUIT_JUICE_BUCKET.get());
                         pOutput.accept(ModItems.ORANGE_JUICE_BUCKET.get());
                         pOutput.accept(ModItems.SWEET_BERRY_JUICE_BUCKET.get());
+                        pOutput.accept(ModItems.BIOETHANOL_BUCKET.get());
                     })
                     .build());
 

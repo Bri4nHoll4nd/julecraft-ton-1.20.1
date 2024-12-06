@@ -25,6 +25,9 @@ public class ModItems {
     public static final RegistryObject<Item> BIO_PULP = ITEMS.register("bio_pulp",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PLASTIC_NUGGET = ITEMS.register("plastic_nugget",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> PLASTIC_SHEET = ITEMS.register("plastic_sheet",
             () -> new Item(new Item.Properties()));
 
@@ -54,6 +57,8 @@ public class ModItems {
             () -> new BucketItem(ModFluids.SOURCE_ORANGE_JUICE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
     public static final RegistryObject<Item> SWEET_BERRY_JUICE_BUCKET = ITEMS.register("sweet_berry_juice_bucket",
             () -> new BucketItem(ModFluids.SOURCE_SWEET_BERRY_JUICE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> BIOETHANOL_BUCKET = ITEMS.register("bioethanol_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_BIOETHANOL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

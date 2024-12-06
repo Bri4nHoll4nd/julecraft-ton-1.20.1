@@ -47,6 +47,11 @@ public class ModFluidTypes {
                     new Vector3f(162f / 255f, 26f / 255f, 43f / 255f),
                     FluidType.Properties.create().lightLevel(4)));
 
+    public static final RegistryObject<FluidType> BIOETHANOL = registerFluidType("bioethanol",
+            new BaseFluidType(WATER_STILL_RL, WATER_FLOWING_RL, WATER_OVERLAY_RL, 0xA5d7e1fc,
+                    new Vector3f(215f / 255f, 225f / 255f, 252f / 255f),
+                    FluidType.Properties.create().lightLevel(4)));
+
 
 
     private static RegistryObject<FluidType> registerFluidType(String name, FluidType fluidType) {

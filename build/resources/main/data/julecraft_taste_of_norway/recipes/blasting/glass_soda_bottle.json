@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:glass_pane"
+  },
+  "result": "julecraft_taste_of_norway:glass_soda_bottle",
+  "experience": 0,
+  "cookingtime": 200
+}

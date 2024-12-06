@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "none",
+  "ingredients": [
+    { "item": "julecraft_taste_of_norway:orange" }
+  ],
+  "results": [
+    { "fluid": "julecraft_taste_of_norway:orange_juice_fluid", "amount": 250 }
+  ]
+}

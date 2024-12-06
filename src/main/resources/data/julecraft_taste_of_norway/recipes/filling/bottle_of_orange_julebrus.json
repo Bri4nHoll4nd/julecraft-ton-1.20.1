@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "julecraft_taste_of_norway:plastic_soda_bottle"
+    },
+    {
+      "fluid": "julecraft_taste_of_norway:julebrus_orange_fluid",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "julecraft_taste_of_norway:bottle_of_julebrus_orange"
+    }
+  ]
+}

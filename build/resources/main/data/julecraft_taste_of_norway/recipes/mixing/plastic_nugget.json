@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    { "fluid": "julecraft_taste_of_norway:bioethanol_fluid", "amount": 250 },
+    { "item": "julecraft_taste_of_norway:lime_powder" }
+  ],
+  "results": [
+    { "item": "julecraft_taste_of_norway:plastic_nugget" }
+  ]
+}

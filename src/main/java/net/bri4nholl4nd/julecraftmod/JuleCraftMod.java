@@ -77,6 +77,8 @@ public class JuleCraftMod {
             ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_ORANGE_JUICE.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_SWEET_BERRY_JUICE.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_SWEET_BERRY_JUICE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_BIOETHANOL.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_BIOETHANOL.get(), RenderType.translucent());
         }
     }
 }

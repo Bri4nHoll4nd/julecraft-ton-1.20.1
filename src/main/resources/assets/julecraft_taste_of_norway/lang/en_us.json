@@ -5,6 +5,7 @@
   "item.julecraft_taste_of_norway.lime_powder": "Lime Powder",
   "item.julecraft_taste_of_norway.orange": "Orange",
   "item.julecraft_taste_of_norway.bio_pulp": "Bio-Pulp",
+  "item.julecraft_taste_of_norway.plastic_nugget": "Plastic Nugget",
   "item.julecraft_taste_of_norway.plastic_sheet": "Plastic Sheet",
   "item.julecraft_taste_of_norway.plastic_soda_bottle": "Plastic Soda Bottle",
   "item.julecraft_taste_of_norway.bottle_of_julebrus_orange": "Bottle of Orange Julebrus",
@@ -17,6 +18,7 @@
   "item.julecraft_taste_of_norway.fruit_juice_bucket": "Fruit Juice Bucket",
   "item.julecraft_taste_of_norway.orange_juice_bucket": "Orange Juice Bucket",
   "item.julecraft_taste_of_norway.sweet_berry_juice_bucket": "Sweet Berry Juice Bucket",
+  "item.julecraft_taste_of_norway.bioethanol_bucket": "Bioethanol Bucket",
 
   "block.julecraft_taste_of_norway.limestone": "Limestone",
   "block.julecraft_taste_of_norway.limestone_1": "Compressed Block of Limestone (1x)",
@@ -27,5 +29,14 @@
   "block.julecraft_taste_of_norway.limestone_6": "Compressed Block of Limestone (6x)",
   "block.julecraft_taste_of_norway.limestone_7": "Compressed Block of Limestone (7x)",
   "block.julecraft_taste_of_norway.limestone_8": "Compressed Block of Limestone (8x)",
-  "block.julecraft_taste_of_norway.limestone_9": "Compressed Block of Limestone (9x)"
+  "block.julecraft_taste_of_norway.limestone_9": "Compressed Block of Limestone (9x)",
+
+  "fluid_type.julecraft_taste_of_norway.carbonated_water": "Carbonated Water",
+  "fluid_type.julecraft_taste_of_norway.julebrus_brown": "Julebrus Brown",
+  "fluid_type.julecraft_taste_of_norway.julebrus_orange": "Julebrus Orange",
+  "fluid_type.julecraft_taste_of_norway.julebrus_red": "Julebrus Red",
+  "fluid_type.julecraft_taste_of_norway.fruit_juice": "Fruit Juice",
+  "fluid_type.julecraft_taste_of_norway.orange_juice": "Orange Juice",
+  "fluid_type.julecraft_taste_of_norway.sweet_berry_juice": "Sweet Berry Juice",
+  "fluid_type.julecraft_taste_of_norway.bioethanol": "Bioethanol"
 }

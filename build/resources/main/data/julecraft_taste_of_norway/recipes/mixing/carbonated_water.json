@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    { "fluid": "minecraft:water", "amount": 1000 },
+    { "fluid": "minecraft:lava", "amount": 250 }
+  ],
+  "results": [
+    { "fluid": "julecraft_taste_of_norway:carbonated_water_fluid", "amount": 1000 }
+  ]
+}

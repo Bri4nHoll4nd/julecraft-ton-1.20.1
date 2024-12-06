@@ -32,6 +32,8 @@ public class ModFluidTagsProvider extends FluidTagsProvider {
                 .add(ModFluids.SOURCE_ORANGE_JUICE.get())
                 .add(ModFluids.FLOWING_ORANGE_JUICE.get())
                 .add(ModFluids.SOURCE_SWEET_BERRY_JUICE.get())
-                .add(ModFluids.FLOWING_SWEET_BERRY_JUICE.get());
+                .add(ModFluids.FLOWING_SWEET_BERRY_JUICE.get())
+                .add(ModFluids.SOURCE_BIOETHANOL.get())
+                .add(ModFluids.FLOWING_BIOETHANOL.get());
     }
 }

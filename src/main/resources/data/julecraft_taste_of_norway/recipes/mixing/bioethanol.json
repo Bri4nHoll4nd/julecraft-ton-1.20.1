@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    { "fluid": "minecraft:water", "amount": 1000 },
+    { "item": "julecraft_taste_of_norway:bio_pulp" }
+  ],
+  "results": [
+    { "fluid": "julecraft_taste_of_norway:bioethanol_fluid", "amount": 1000 }
+  ]
+}
