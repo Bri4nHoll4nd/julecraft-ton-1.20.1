@@ -3,12 +3,15 @@ package net.bri4nholl4nd.julecraftmod.block;
 import net.bri4nholl4nd.julecraftmod.JuleCraftMod;
 import net.bri4nholl4nd.julecraftmod.fluid.ModFluids;
 import net.bri4nholl4nd.julecraftmod.item.ModItems;
+import net.bri4nholl4nd.julecraftmod.worldgen.tree.OrangeTreeGrower;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -51,6 +54,23 @@ public class ModBlocks {
             () -> new LiquidBlock(ModFluids.SOURCE_SWEET_BERRY_JUICE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
     public static final RegistryObject<LiquidBlock> BIOETHANOL_BLOCK = JuleCraftMod.BLOCKS.register("bioethanol_block",
             () -> new LiquidBlock(ModFluids.SOURCE_BIOETHANOL, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    public static final RegistryObject<Block> ORANGE_LEAVES = registerBlock("orange_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+    });
+    public static final RegistryObject<Block> ORANGE_SAPLING = registerBlock("orange_sapling",
+            () -> new SaplingBlock(new OrangeTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = JuleCraftMod.BLOCKS.register(name, block);

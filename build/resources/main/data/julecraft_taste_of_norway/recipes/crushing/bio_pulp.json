@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    { "tag": "julecraft_taste_of_norway:crushable_plants" }
+  ],
+  "results": [
+    {
+      "item": "julecraft_taste_of_norway:bio_pulp",
+      "count": 1,
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 200
+}

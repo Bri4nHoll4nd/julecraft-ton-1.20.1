@@ -45,6 +45,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ORANGE_JUICE_BUCKET.get());
                         pOutput.accept(ModItems.SWEET_BERRY_JUICE_BUCKET.get());
                         pOutput.accept(ModItems.BIOETHANOL_BUCKET.get());
+
+                        pOutput.accept(ModBlocks.ORANGE_LEAVES.get());
+                        pOutput.accept(ModBlocks.ORANGE_SAPLING.get());
                     })
                     .build());
 

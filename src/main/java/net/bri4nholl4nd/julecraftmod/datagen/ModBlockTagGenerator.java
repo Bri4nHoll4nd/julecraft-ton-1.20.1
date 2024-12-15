@@ -32,4 +32,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.LIMESTONE_9.get()
                 );
     }
+
+    @Override
+    public String getName() {
+        return "Block Tags";
+    }
 }
