@@ -10,9 +10,22 @@
       "minecraft:birch_forest": "2024-12-15 17:14:02 +0100",
       "minecraft:grove": "2024-12-15 17:13:54 +0100",
       "minecraft:forest": "2024-12-15 17:14:23 +0100",
+      "minecraft:old_growth_birch_forest": "2024-12-16 00:41:37 +0100",
       "minecraft:meadow": "2024-12-15 17:14:00 +0100"
     },
     "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-12-16 00:40:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-16 00:41:46 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
